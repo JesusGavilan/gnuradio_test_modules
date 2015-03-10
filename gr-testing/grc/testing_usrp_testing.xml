@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<block>
+  <name>usrp_testing</name>
+  <key>testing_usrp_testing</key>
+  <category>testing</category>
+  <import>import testing</import>
+  <make>testing.usrp_testing()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+</block>
